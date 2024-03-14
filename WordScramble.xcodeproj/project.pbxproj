@@ -11,14 +11,17 @@
 		CC94CD962B9B879700403132 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94CD952B9B879700403132 /* ContentView.swift */; };
 		CC94CD982B9B879A00403132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC94CD972B9B879A00403132 /* Assets.xcassets */; };
 		CC94CD9B2B9B879A00403132 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC94CD9A2B9B879A00403132 /* Preview Assets.xcassets */; };
+		CC94CDA42B9F7F0500403132 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC94CDA32B9F7F0500403132 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC21903D2BA39A55001F2EF8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CC94CD902B9B879700403132 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC94CD932B9B879700403132 /* WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleApp.swift; sourceTree = "<group>"; };
 		CC94CD952B9B879700403132 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC94CD972B9B879A00403132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC94CD9A2B9B879A00403132 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC94CDA32B9F7F0500403132 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		CC94CD872B9B879700403132 = {
 			isa = PBXGroup;
 			children = (
+				CC21903D2BA39A55001F2EF8 /* README.md */,
 				CC94CD922B9B879700403132 /* WordScramble */,
 				CC94CD912B9B879700403132 /* Products */,
 			);
@@ -53,6 +57,7 @@
 			children = (
 				CC94CD932B9B879700403132 /* WordScrambleApp.swift */,
 				CC94CD952B9B879700403132 /* ContentView.swift */,
+				CC94CDA32B9F7F0500403132 /* start.txt */,
 				CC94CD972B9B879A00403132 /* Assets.xcassets */,
 				CC94CD992B9B879A00403132 /* Preview Content */,
 			);
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC94CD9B2B9B879A00403132 /* Preview Assets.xcassets in Resources */,
+				CC94CDA42B9F7F0500403132 /* start.txt in Resources */,
 				CC94CD982B9B879A00403132 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
