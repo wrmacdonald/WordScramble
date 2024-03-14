@@ -55,7 +55,7 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem(placement: .bottomBar) {
                     Text("Your score: \(score)")
-                        .font(.largeTitle)
+                        .font(.title)
                 }
                 ToolbarItem(placement: .topBarLeading) {
                     Text("High score \(highScore)")
